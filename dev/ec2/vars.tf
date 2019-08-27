@@ -6,8 +6,8 @@
 
 
 ## AWS aws_region
-variable "AWS_REGION" {
-#  default = "REGION"
+variable "AWS_us-east-1" {
+#  default = "us-east-1"
 }
 
 variable "INSTANCE_USERNAME" {
@@ -20,7 +20,7 @@ variable "AMIS" {
  type = map(string)
 
   default = {
-    ${REGION} = "ami-06f2f779464715dc5"
+    ${us-east-1} = "ami-06f2f779464715dc5"
     us-east-1 = "ami-0ac019f4fcb7cb7e6"
   }
 }
