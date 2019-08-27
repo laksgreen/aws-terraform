@@ -7,7 +7,7 @@
 
 ## AWS aws_region
 variable "AWS_REGION" {
-#  default = "${REGION}"
+#  default = "REGION"
 }
 
 variable "INSTANCE_USERNAME" {
