@@ -1,3 +1,4 @@
+## Security groups created
 resource "aws_security_group" "myteam-web" {
   name        = "myteam-web"
   description = "web access 80,443"
