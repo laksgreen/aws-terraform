@@ -7,7 +7,7 @@
 
 ## AWS aws_region
 variable "AWS_us-east-1" {
-#  default = "us-east-1"
+#  default = "REGION"
 }
 
 variable "INSTANCE_USERNAME" {
